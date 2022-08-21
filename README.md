@@ -19,7 +19,14 @@ DayNo = DAY(<Date>)
 
 To return a short name of a date (dd-mm-yyyy) -> Mon, Tue, Wed etc.
 DayShortName = FORMAT(<Date>, "DDD")
-  
+
+**DATEDIFF**
+Returns the number of units between two dates as defined in <interval>
+DATEDIFF(<Date1>, <Date2>, <Interval>)
+
+Quick Measures: Powerful measures in DAX that enables you to carry out complex calculations without needing to write the code from scratch ([source link](https://docs.microsoft.com/en-us/power-bi/transform-model/desktop-quick-measures))
+
+
   
   
   
