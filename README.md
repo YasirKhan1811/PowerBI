@@ -2,6 +2,15 @@
 
 ## DAX
 
+Profit Margin Ratio = An important financial metric. Profit margin ratio compares the total profit to the total sales. It's always expressed in %.
+
+### Context in DAX Formulas
+There are 3 types of context; row, filter, and query.
+
+Iterator functions:
+1. SUMX(<table>, <expression>)
+
+
 2018 Bikes Revenue = CALCULATE(SUM(Sales[LinePrice]), Sales[ProductCategory]="Bike", YEAR(Sales[OrderDate]) = 2018)
 
 Goldvol21 = CALCULATE(SUM(Commodities[Volume]), Filter(Commodities, Commodities[Symbol] = 'Gold'), Filter(Commodities, YEAR(Commodities[Date] = 2021))
