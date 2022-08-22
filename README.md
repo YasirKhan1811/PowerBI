@@ -8,7 +8,7 @@ Profit Margin Ratio = An important financial metric. Profit margin ratio compare
 There are 3 types of context; row, filter, and query.
 
 Iterator functions:
-1. SUMX(<table>, <expression>)
+1. SUMX(table, expression)
 
 
 2018 Bikes Revenue = CALCULATE(SUM(Sales[LinePrice]), Sales[ProductCategory]="Bike", YEAR(Sales[OrderDate]) = 2018)
