@@ -58,17 +58,10 @@ Dates = CALENDAR(MIN(Date), MAX(Date])
 Returns a column of dates from start day of the transaction table until the last day
 
 To return day of a date column (dd-mm-yyyy)
-DayNo = DAY(<Date>)
+DayNo = DAY(Date)
 
-To return a short name of a date (dd-mm-yyyy) -> Mon, Tue, Wed etc.
+To return a short name of a day from date (dd-mm-yyyy) -> Mon, Tue, Wed etc.
 DayShortName = FORMAT(<Date>, "DDD")
-
-**DATEDIFF**
-Returns the number of units between two dates as defined in <interval>
-DATEDIFF(<Date1>, <Date2>, <Interval>)
-  
-**DATEADD**
-DATEADD(<dates>, <number_of_intervals>, <interval>)
   
 **The importance of a date table**
 Issues of relying on only dates from transactional tables:
@@ -78,6 +71,12 @@ Issues of relying on only dates from transactional tables:
     - Difficult to troubleshoot
 
 A dedicated date table is highly recommended for accurate reporting using time intelligence functions.
+
+**DATEDIFF**
+Returns the number of units between two dates as defined in <interval>
+DATEDIFF(<Date1>, <Date2>, <Interval>)
   
+**DATEADD**
+DATEADD(<dates>, <number_of_intervals>, <interval>)
   
 Quick Measures: Powerful feature in DAX that enables you to carry out complex calculations without needing to write the code from scratch ([source link](https://docs.microsoft.com/en-us/power-bi/transform-model/desktop-quick-measures))
