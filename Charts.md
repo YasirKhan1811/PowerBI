@@ -31,10 +31,15 @@ Color as an emphisis:
 To show share of categories of the whole. Pie chart is the least prefered visual. The best way to show a treemap is to work with **hierarchical categorical** data.
 
 ### Gauge
-It is used to track the score or performance. It has a min value, current measure, target, and maximum value.
+It is used to track the score or performance. It has a current measure, target, and maximum value.
 
 ### KPIs
-Track performance over time versus expectations
+Track performance over time versus expectations. Help businesses track how they are doing versus relevant metrics.
+Key performance indicators (KPIs) are excellent in helping you track progress toward a specific goal over time. To use a KPI, we need three pieces of information:
+1. A unit of measurement that we want to track, for instance total sales, number of employee hires, or number of students enrolled.
+2. A goal for the measurement, so we can compare our progress with that goal.
+3. Time series, dor example daily, monthly, or yearly.
+
 
 
 
