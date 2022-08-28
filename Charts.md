@@ -40,6 +40,9 @@ Key performance indicators (KPIs) are excellent in helping you track progress to
 2. A goal for the measurement, so we can compare our progress with that goal.
 3. Time series, dor example daily, monthly, or yearly.
 
+### Conditional Formatting
+Conditional Formatting is a great tool for displaying color when certain conditions are met.
+
 
 
 
