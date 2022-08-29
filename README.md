@@ -54,7 +54,7 @@ Time Intelligence Functions:
 
 Creating a Dedicated Date Table:
 
-Dates = CALENDAR(MIN(Date), MAX(Date])
+Dates = CALENDAR(<start_date>, <end_date>) 
 Returns a column of dates from start day of the transaction table until the last day
 
 To return day of a date column (dd-mm-yyyy)
@@ -80,3 +80,7 @@ DATEDIFF(<Date1>, <Date2>, <Interval>)
 DATEADD(<dates>, <number_of_intervals>, <interval>)
   
 Quick Measures: Powerful feature in DAX that enables you to carry out complex calculations without needing to write the code from scratch ([source link](https://docs.microsoft.com/en-us/power-bi/transform-model/desktop-quick-measures))
+ 
+**MAIN DAX FUNCTIONS**
+
+https://docs.microsoft.com/pt-br/dax/dax-function-reference
