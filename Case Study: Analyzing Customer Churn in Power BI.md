@@ -16,3 +16,6 @@ Apply the following DAX formula to add a new measure **churn rate**:
 The churn rate formula is: (Lost Customers ÷ Total Customers at the Start of Time Period) x 100
 
 ## Step 02: Investigating Churn Reasons
+Investigate the different reasons why customers churned. Next, create a column chart of churn rate per different reasons of churn.
+
+**Churn Reasons** are grouped together in the **Churn Category** column.
