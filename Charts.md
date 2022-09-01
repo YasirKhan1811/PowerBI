@@ -38,23 +38,7 @@ Track performance over time versus expectations. Help businesses track how they 
 Key performance indicators (KPIs) are excellent in helping you track progress toward a specific goal over time. To use a KPI, we need three pieces of information:
 1. A unit of measurement that we want to track, for instance total sales, number of employee hires, or number of students enrolled.
 2. A goal for the measurement, so we can compare our progress with that goal.
-3. Time series, dor example daily, monthly, or yearly.
+3. Time series, for example daily, monthly, or yearly.
 
 ### Conditional Formatting
 Conditional Formatting is a great tool for displaying color when certain conditions are met.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
