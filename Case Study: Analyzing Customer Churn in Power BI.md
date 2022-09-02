@@ -42,6 +42,25 @@ It turns out that the churn rate is significantly high among the senior customer
 
 Add a conditional column for **Age Bins**
 
+### Inspecting Groups
+Databel offers group contracts to customers from same household. Benefit to the customers is that they have discounted rates. This is a great way for databel to grow their customer base. Analyze the customers that are part of the group if they really have lower phone bill and how it effects the churn rate?
+
+Add a combo stacked column chart and include **No. of customers**, **Churn rate** as a line, and **Average of Monthly Charge**. It turns out that the bigger customer group has lower monthly phone bill and lower churn rate.
+
+### SWITCH Function
+Let's analyze the churn rate by type of subscription. There are 3 different contract types i.e. Month-to-Month, One Year, and Two Year in the contract type column.
+Use the **SWITCH** function to convert the contract type column into contract category column where the subscription categories are like this: Month-to-Month -> **Monthly**, One Year and Two Year -> **Yearly**
+
+By this, we are going to analyze the effect of subscription type on churn rate, and then the impact of gender and subscription type on churn rate.
+
+How to use the **SWITCH Function**?
+**SWITCH(expression, value, result, value, result, ...,else])**
+
+From the multi-card visual of the churn rate by contract category, it turns out that customers with monthly contract churn at 46%, however, the yearly contract customers have significantly lower churn rate (6.6%).
+
+The cluster-column chart of churn rate shows the role played by the customer gender in subscription type.
+
+For example: Contract Category = SWITCH('Databel - Data'[Contract Type], "One Year", "Yearly", "Two Year", "Yearly", "Monthly")
 
 
 
