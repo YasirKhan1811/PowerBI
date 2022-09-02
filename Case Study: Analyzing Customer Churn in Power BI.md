@@ -62,7 +62,8 @@ The cluster-column chart of churn rate shows the role played by the customer gen
 
 For example: Contract Category = SWITCH('Databel - Data'[Contract Type], "One Year", "Yearly", "Two Year", "Yearly", "Monthly")
 
-
+### Unlimited Data Plan
+It is believed that customers who are not on unlimited data plan are most likely to churn. So let's analyze this hypothesis by investigating how **Unlimited Data Plan** influences the churn rate.
 
 
 
