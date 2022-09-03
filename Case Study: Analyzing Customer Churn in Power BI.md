@@ -65,6 +65,27 @@ For example: Contract Category = SWITCH('Databel - Data'[Contract Type], "One Ye
 ### Unlimited Data Plan
 It is believed that customers who are not on unlimited data plan are most likely to churn. So let's analyze this hypothesis by investigating how **Unlimited Data Plan** influences the churn rate.
 
+### Analyze International Activity of Customers
+
+
+### Contract Type
+Databel also wants to improve its customer service since there have been some reported issues. Investigate three important topics related to customer service: the payment method, contract type, and how many months a person is a customer.
+
+## Step 03: Dashboard
+Creating a Cohesive Story
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
