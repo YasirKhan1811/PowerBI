@@ -74,6 +74,9 @@ Databel also wants to improve its customer service since there have been some re
 ## Step 03: Dashboard
 Creating a Cohesive Story
 
+https://app.powerbi.com/view?r=eyJrIjoiMGE2OWRmOTgtMmY3Yy00YTJkLWEyY2EtODE0Y2EwN2EyMGVlIiwidCI6IjlhYWU1Yjg3LTU4NDQtNDAzMS04MGEyLWVhZDE0NjNlNzNiNiIsImMiOjN9&pageName=ReportSection0da0007f61773311eb77
+https://docs.microsoft.com/en-us/power-bi/create-reports/service-dashboards-design-tips?source=recommendations
+
 
 
 
