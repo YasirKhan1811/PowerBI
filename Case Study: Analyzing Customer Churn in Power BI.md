@@ -2,6 +2,15 @@
 
 Disclaimer: This repository project is for my own practice and a reference for later use. For the real experience and certificate, get this hands-on course on [DataCamp](https://app.datacamp.com/learn/courses/case-study-analyzing-customer-churn-in-power-bi).
 
+---
+### Data Analysis Process in Power BI
+1. Perform a data check
+2. Ask yourself different business questions and explore the data
+3. Discover insights and visualize them using suitable visualizations
+4. Build a dashboard or story so you can cohessively share the information
+5. Organize a session with stakeholders and walk them through the dashboard or story
+---
+
 ## Step 01: Data Check
 The first step in any analysis is doing a data check. First, we will create **two measures** to check whether the count of customer ids is equal to the count of unique 
 customer ids. This is to check if there are duplicate rows.
@@ -17,19 +26,26 @@ Apply IF-Statement to encode the Churn Label column with 1 and 0. The easiest wa
 Apply the following DAX formula to add a new measure **churn rate**:
 The churn rate formula is: (Lost Customers ÷ Total Customers at the Start of Time Period) x 100
 
+So it turns out that churn rate is **26.86%**, which is a high churn rate. Meaning that **1796** customers have left the company out of **6687** total customers.
+
 ### Investigating Churn Reasons
-Investigate the different reasons why customers churned. Next, create a column chart of number of customers churned per different reasons of churn.
+Investigate the different reasons why customers churned. Next, create a bar chart of number of customers as % of grand total for different reasons of churn.
 
 **Churn Reasons** are grouped together in the **Churn Category** column. Create a bar chart to visualize churn category as % of grand total for count of churn label.
 
-### Use maps to your advantage
+### Churn by State
 Investigate the churn rate by state. The competitors launched aggressive promos in certain states, and Databel is wondering if it has impacted their customers. So use the map visual to view the churn rate by state.
 
 Add churn rate, number of customers, and number of churned customers to the tooltip of the map visual. Add state to the location field. Use gradient color to easily identify the highest churn rate in a state by that color. 
-It turns out that California has the highest churn rate of 63.24%.
+It turns out that California has the highest churn rate of **63.24%**.
 
 ## Step 02: Analyzing Demographics
 Create a new column **Demographics** by categorizing **Senior**, **Under 30**, and **Other** into this one column using the following DAX:
+
+The insights discovered so far:
+- The churn rate for databel is 27%
+- 45% of the customers have churned because of competitors
+- The churn rate in California is abnormally high (>60%)
 
 **Demographics = IF('Databel - Data'[Senior] = "Yes", "Senior", IF('Databel - Data'[Under 30] = "Yes", "Under 30", "Other"))**
 
@@ -66,9 +82,9 @@ For example: Contract Category = SWITCH('Databel - Data'[Contract Type], "One Ye
 It is believed that customers who are not on unlimited data plan are most likely to churn. So let's analyze this hypothesis by investigating how **Unlimited Data Plan** influences the churn rate.
 
 ### Analyze International Activity of Customers
+Databel requests to analyze the international activity of customers and its relationship to churn. They are curious about the behaviour of customers who make international calls, and if paying for an international plan influences their loyalty.
 
-
-### Contract Type
+### Customer Service
 Databel also wants to improve its customer service since there have been some reported issues. Investigate three important topics related to customer service: the payment method, contract type, and how many months a person is a customer.
 
 ## Step 03: Dashboard
