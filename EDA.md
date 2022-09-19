@@ -69,8 +69,25 @@ Finding outliers: There are two common methods for quantitatively finding outlie
   - Imputations
   - Winsorizing: 
     - if value < 5th percentile THEN value = 5th percentile 
-    - if value > 95th percentile THEN value = 95th percentile 
+    - if value > 95th percentile THEN value = 95th percentile
+ 
+**EDA with Categorical Variables**
+- The first place to start is visualizing frequencies of categorical variables. For example: No. of Participants by Age Group. It depicts observations per value of a categorical variable via **column/bar** chart.
+- OR visualizing percentage of values/observations by categories, for example, plotting %age of participants by age group via a **donut** chart.
+- Another way is to view proportions of values across multiple categorical variables, for example, through 100% **stacked column charts**.
+- Categorical variables with descriptive statistics.
+- Using **box plots** for analyzing the distribution of a continuous variable. Also it can be used to plot continuous variable across categories.
+- Creating new variables - An important part, or result, of EDA is creating new variables, both continuous and categorical. Doing so can help further refine an analysis or visualization. This process is often referred to as **data transformation or mutation**. For example, converting the age column into four "Age Group" categories - Teen, Early Adult, Adult, and Middle Age.
 
+**Histograms vs. box plots**
+Histograms and box plots are both great for visualizing distributions of a continuous variable. Each has their strengths. Therefore, which one we choose for our EDA depends on the question being asked.
+
+| **Box Plot** | **Histograms** |
+| :----: | :----: |
+| Better view of distribution statistics | Better view of underlying distribution |
+| Indicates Median | Frequency of values |
+| Outlines 1st, 2nd, and 3rd Quartiles | Intervals/bins of values |
+| Lines indicating lower and upper bounds for outliers | Most commonly occuring value(s) |
 
 
 
