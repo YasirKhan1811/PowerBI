@@ -89,6 +89,9 @@ Histograms and box plots are both great for visualizing distributions of a conti
 | Outlines 1st, 2nd, and 3rd Quartiles | Intervals/bins of values |
 | Lines indicating lower and upper bounds for outliers | Most commonly occuring value(s) |
 
+### Relationship b/w Continuous Variables
+Scatter plots are fantastic tools for visualizing relationships between variables. They also provide insights into the direction (i.e., +, -, or neutral) and potential strength (-1 -> 0 -> 1) of the relationship.
+
 
 
 
