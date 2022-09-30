@@ -92,6 +92,17 @@ Histograms and box plots are both great for visualizing distributions of a conti
 ### Relationship b/w Continuous Variables
 Scatter plots are fantastic tools for visualizing relationships between variables. They also provide insights into the direction (i.e., +, -, or neutral) and potential strength (-1 -> 0 -> 1) of the relationship.
 
+---
+
+## Trend Analysis
+
+### Decomposition Tree:
+    A method for breaking down a target variable by multiple dimensions or variables to determine resulting influence.
+    Use cases:
+             - Ad Hoc exploration
+             - Root cause analysis
+             - Identifying influential variables
+
 
 
 
